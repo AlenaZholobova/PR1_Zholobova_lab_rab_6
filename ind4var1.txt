@@ -1,0 +1,36 @@
+# PR1_Zholobova_lab_rab_6
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("#div1").fadeIn("slow");
+$("#div2").fadeIn("slow");
+$("#div3").fadeIn("slow");
+$("#div4").fadeIn("slow");
+$("#div5").fadeIn("slow");
+
+$("div1").click(function () {
+$("div1").animate({ down: '100px' });
+
+});
+});
+</script>
+</head>
+<body>
+<button id="but1">Нажми на меня.</button>
+<p id="p1">1 параграф.</p>
+<div id="div1" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+<p id="p2">2 параграф.</p>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:red;"></div>
+<p id="p3">3 параграф.</p>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:green;"></div>
+<p id="p4">4 параграф.</p>
+<div id="div4" style="width:80px;height:80px;display:none;background-color:pink;"></div>
+<p id="p5">5 параграф.</p>
+<div id="div5" style="width:80px;height:80px;display:none;background-color:black;"></div>
+
+
+</body>
+</html>
